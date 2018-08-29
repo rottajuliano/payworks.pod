@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.summary            = 'A delightful payment integration framework powered by payworks'
     spec.platform           = :ios, '8.0'
     spec.requires_arc       = true
-    spec.source             = { :http => 'https://github.com/rottajuliano/payworks.pod/blob/master/payworks-7.zip' }
+    spec.source             = { :http => 'https://github.com/rottajuliano/payworks.pod/blob/master/payworks-7.zip?raw=true' }
     spec.default_subspec       = 'mpos'
 
     spec.subspec 'mpos' do |mpos|
